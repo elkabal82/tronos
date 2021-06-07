@@ -17,12 +17,14 @@
     <div id="content">
         <header>
             <!-- <nav-component></nav-component> -->
+            <the-nav></the-nav>
         </header>
         <main>
             <!-- <main-component></main-component> -->
         </main>
         <footer>
             <!-- <footer-component></footer-component> -->
+            <the-footer></the-footer>
         </footer>
     </div>
 
@@ -39,7 +41,7 @@
         new Vue({
             el: "#content",
             // components: {'nav-component': NavComponent, 'main-component': MainComponent, 'footer-component': FooterComponent },
-            componets:{TheNav, TheFooter},
+            componets:{'the-nav':TheNav, 'the-header':TheFooter},
         });
     </script>
   </body>
